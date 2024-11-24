@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'spicyRice':['Spicy Rice','sans-serif'],
+        'righteous':['Righteous','sans-serif'],
+      }
+    },
   },
   plugins: [],
 }

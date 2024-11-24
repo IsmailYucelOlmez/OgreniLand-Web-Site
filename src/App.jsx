@@ -6,17 +6,18 @@ import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import GamesPage from './pages/GamesPage'
 import GameDetailsPage from './pages/GameDetailsPage'
+import ContactPage from './pages/ContactPage'
 
 function App() {
   
-
   return (
-    <div>
+    <div className='bg-[#a4cdc5]'>
       <Header/>
 
       <Routes>
         <Route path='/' element={<HomePage/>} />  
         <Route path='/about' element={<AboutPage/>} />
+        <Route path='/contact' element={<ContactPage/>} />
         <Route path='/games' element={<GamesPage/>} />
         <Route path='/game/:id' element={<GameDetailsPage/>} />
       </Routes>
