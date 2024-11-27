@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className='flex justify-around items-center py-6 mt-12  text-black border-t border-black'>
 
-      <div className='flex flex-col gap-1 items-center '>
+      <div className='flex flex-col items-center '>
         <div className='flex justify-center items-center gap-2'>
           <Image src={Logo} className={"w-24 h-24"}/>       
           <h5 className='text-xl font-spicyRice'>ÖğreniLand</h5>
