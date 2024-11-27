@@ -11,7 +11,7 @@ import ContactPage from './pages/ContactPage'
 function App() {
   
   return (
-    <div className='bg-[#a4cdc5]'>
+    <div className='bg-[#eadeda]'>
       <Header/>
 
       <Routes>

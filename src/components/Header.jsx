@@ -5,7 +5,7 @@ import Logo from '../assets/ogrenıland.svg'
 
 const Header = () => {
   return (
-    <header className='flex justify-evenly gap-10 items-center lg:h-16 bg-[#eadeda] w-full text-black border-b border-[#2e294e]'>
+    <header className='flex justify-around gap-10 items-center lg:h-16 bg-[#c4d7d1] w-full text-black border-b border-[#2e294e]'>
       
       <div className='flex justify-center items-center'>
         <Image src={Logo} className={"w-24 h-24"}/>
