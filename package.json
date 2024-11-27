@@ -1,6 +1,7 @@
 {
   "name": "ogrenilandwebsite",
   "private": true,
+  "homepage": "https://www.ogreniland.website",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
