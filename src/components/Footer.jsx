@@ -4,15 +4,15 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
 import EmailIcon from '@mui/icons-material/Email';
 import Image from './Image';
-import Logo from '../assets/Logo.svg'
+import Logo from '../assets/Logov2.svg'
 
 const Footer = () => {
   return (
     <div className='flex justify-around items-center py-6 mt-12  text-black border-t border-black'>
 
-      <div className='flex flex-col items-center '>
+      <div className='flex flex-col items-center gap-2'>
         <div className='flex justify-center items-center gap-2'>
-          <Image src={Logo} className={"w-24 h-24"}/>       
+          <Image src={Logo} className={"w-28 h-12"}/>       
           <h5 className='text-xl font-spicyRice'>ÖğreniLand</h5>
         </div>
         
