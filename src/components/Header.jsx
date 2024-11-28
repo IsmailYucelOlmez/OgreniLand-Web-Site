@@ -1,16 +1,19 @@
 import React from 'react'
 import Image from './Image'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Logo from '../assets/ogrenıland.svg'
 
 const Header = () => {
   return (
     <header className='flex justify-around gap-10 items-center lg:h-16 bg-[#c4d7d1] w-full text-black border-b border-[#2e294e]'>
       
-      <div className='flex justify-center items-center'>
-        <Image src={Logo} className={"w-24 h-24"}/>
-        <h1 className='text-xl font-spicyRice'>ÖğreniLand</h1>
-      </div>
+      <Link to={"/"}>
+        <div className='flex justify-center items-center'>
+          <Image src={Logo} className={"w-24 h-24"}/>
+          <h1 className='text-xl font-spicyRice'>ÖğreniLand</h1>
+        </div>
+      </Link>
+      
       
 
       <div className='flex justify-center items-center gap-2'>
