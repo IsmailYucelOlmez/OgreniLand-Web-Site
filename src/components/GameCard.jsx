@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const GameCard = ({src,title,explanation,id}) => {
   return (
-    <Link to={`/game/${id}`} className='flex justify-between items-center w-full'>
+    <Link to={`/game/${id}`} className='flex justify-between items-center w-full lg:h-80'>
         <Image src={src} className={"w-1/3"}/>  
 
         <div className='flex flex-col gap-2 '>
