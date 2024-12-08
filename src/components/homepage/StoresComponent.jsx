@@ -1,5 +1,4 @@
 import React from 'react'
-import StoreIcons from '../StoreIcons'
 import { Link } from 'react-router-dom'
 
 const StoresComponent = () => {
