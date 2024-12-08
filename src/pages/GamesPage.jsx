@@ -7,7 +7,7 @@ import Game4Logo from '../assets/calendarPuzzleLogo.png'
 
 const GamesPage = () => {
   return (
-    <div className='w-3/4 mx-auto flex flex-col items-center '>
+    <div className='xs:w-9/10 lg:w-3/4 mx-auto flex flex-col items-center '>
       
       <GameCard src={Game1Logo} id={"1"} title={"IdeaPolis"} explanation={"Bu oyunda kendi şehrini tasarlayarak bir şehir planlayıcısı ol! Sana verilen binaları doğru yerlere yerleştir, şehrini güzelleştir. Hem eğlen, hem de şehir planlamasının temel kurallarını öğren"}/>
 

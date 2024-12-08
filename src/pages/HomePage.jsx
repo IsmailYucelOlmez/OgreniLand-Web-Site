@@ -5,7 +5,7 @@ import FeaturesComponent from '../components/homepage/FeaturesComponent'
 
 const HomePage = () => {
   return (
-    <div className='w-3/4 mx-auto mt-6 mb-12 flex flex-col gap-20'>
+    <div className='xs:w-9/10 lg:w-3/4 mx-auto mt-6 mb-12 flex flex-col gap-20'>
       
       <HeroBanner/>
 

@@ -6,7 +6,7 @@ const FeaturesComponent = () => {
   return (
     <div className='flex justify-between items-center '>
         
-        <div className='flex flex-col gap-4 w-1/3'>
+        <div className='flex flex-col gap-4 xs:w-full md:w-1/3'>
           <div>
             <h6 className='text-lg'>Etkileşimli Eğitim</h6>                         
             <p>Çocuklar, sanal nesnelerle etkileşimde bulunarak öğrendikleri konuları daha iyi kavrayacak.</p>
@@ -30,7 +30,7 @@ const FeaturesComponent = () => {
                                      
         </div>
 
-        <Image src={HeroBannerBgv2} className={"w-7/12 rounded-xl"}/>
+        <Image src={HeroBannerBgv2} className={"xs:hidden md:block w-7/12 rounded-xl"}/>
       </div>
   )
 }

@@ -11,7 +11,7 @@ const Footer = () => {
     <div className='flex justify-around items-center py-6 mt-12  text-black border-t border-black'>
 
       <div className='flex flex-col items-center gap-2'>
-        <div className='flex justify-center items-center gap-2'>
+        <div className='xs:hidden md:flex justify-center items-center gap-2'>
           <Image src={Logo} className={"w-28 h-12"}/>       
           <h5 className='text-xl font-spicyRice'>ÖğreniLand</h5>
         </div>
@@ -20,7 +20,7 @@ const Footer = () => {
       </div>
 
       <div className='flex flex-col items-center gap-3'>
-        <h6 className='text-xl font-semibold'>Sosyal Medya</h6>
+        <h6 className='xs:text-base md:text-xl font-semibold'>Sosyal Medya</h6>
         <div className='flex justify-center items-center gap-3'>
           <FacebookRoundedIcon sx={{ fontSize:{ xs:15, sm:20, md:25} }} className='cursor-pointer'/>
           <InstagramIcon sx={{ fontSize:{ xs:15, sm:20, md:25} }} className='cursor-pointer  hover:text-[#]'/>       
@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
 
       <div className='flex flex-col items-center gap-3'>
-        <h6 className='text-xl font-semibold'>Bize Ulaşın</h6>
+        <h6 className='xs:text-base md:text-xl font-semibold'>Bize Ulaşın</h6>
         <div className='flex justify-center items-center gap-2'>
           <EmailIcon sx={{ fontSize:{ xs:15, sm:20, md:20} }} className='cursor-pointer  hover:text-[#]'/>
           <p className='text-sm cursor-pointer'>info@gmail.com</p>
