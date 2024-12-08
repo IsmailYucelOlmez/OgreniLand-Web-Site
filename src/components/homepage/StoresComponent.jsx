@@ -1,5 +1,6 @@
 import React from 'react'
 import StoreIcons from '../StoreIcons'
+import { Link } from 'react-router-dom'
 
 const StoresComponent = () => {
   return (
@@ -9,7 +10,7 @@ const StoresComponent = () => {
           <p>Çocuklarınızın hem öğrenmesini hem de eğlenmesini sağlayacak bu AR uygulaması, onların keşfetme arzusunu pekiştirecek ve eğitim hayatlarına katkıda bulunacak. Eğlenceli ve öğretici bir deneyim için hemen keşfedin!</p>
         </div>
 
-        <StoreIcons/>
+        <Link to={"https://expo.dev/accounts/hamza4949/projects/ymgkproje/builds/37bb6da6-27a2-46c9-880d-0ff019d7dd0d"} className='italic underline underline-offset-2'>Android APK</Link>
     </div>
   )
 }
